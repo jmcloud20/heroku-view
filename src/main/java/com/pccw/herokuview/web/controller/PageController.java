@@ -8,8 +8,4 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/view")
 public class PageController {
 
-    @GetMapping("/main")
-    public String getMain(){
-        return "main";
-    }
 }
